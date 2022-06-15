@@ -1,6 +1,6 @@
 # sample-nextjs-test-with-jest
 
-This example shows how to configure Jest to work with Next.js.
+単体テスト及びViewのテスト（Snapshotテスト）をJest と React Testing Libraryを用いて行う。
 
 ## 開始方法
 リポジトリをクローン
@@ -16,11 +16,13 @@ npm test
 
 ターミナルで aキー等を押下し、テスト実行
 
+単体テストとsnapshotテストを行っている。__test__ディレクトリ下の index.test.tsx, snapshot.tsx がそれぞれ対応している。
+
 ## 参考リンク
 
 公式ドキュメント
 
-https://nextjs.org/docs/testing#quickstart-2
+https://nextjs.org/docs/testing#jest-and-react-testing-library
 
 リポジトリ
 
